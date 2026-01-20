@@ -50,6 +50,10 @@ li a{
     font-weight: 600;
     width: 95px;
     height: 30px;
+    cursor: pointer;
+}
+.nav-container button:hover{
+    background : #16c172;
 }
 .nav-btn img{
     height: 15px;
@@ -141,6 +145,10 @@ li a{
     width: 150px;
     height: 30px;
     gap: 5px;
+    cursor: pointer;
+}
+.hero-first-btn:hover{
+    background : #16c172;
 }
 .hero-sec-btn{
     color: #00FF88;
@@ -156,6 +164,11 @@ li a{
     height: 30px;
     background: transparent;
     gap: 5px;
+    cursor: pointer;
+}
+.hero-sec-btn:hover{
+    color: white;
+    background : #16c172;
 }
 /* about-sec */
 #about-sec{
@@ -231,6 +244,11 @@ li a{
     grid-row: span 2;
     width: 350px;
     height: auto;
+    transition: width 5s ease-in-out;
+}
+.card-headphone:hover{
+    width: 400px;
+    background: #876fa7;
 }
 .card-device, .card-location{
     background: linear-gradient(to top right,  #4b1591   40%, #351165 100%);
@@ -240,6 +258,15 @@ li a{
     grid-row: span 1;
     width: 350px;
     height: auto;
+    transition: width 5s ease-in-out;
+}
+.card-location:hover{
+    width: 300px;
+    background: #876fa7;
+}
+.card-device:hover{
+    width: 300px;
+    background: #876fa7;
 }
 .card-Exclusive{
     background: linear-gradient(to top right,  #4b1591   40%, #351165 100%);
@@ -247,7 +274,11 @@ li a{
     padding: 20px;
     grid-column: span 2;
     grid-row: span 1;
-   
+    transition: width 5s ease-in-out;
+}
+.card-Exclusive:hover{
+    width: 400px;
+    background: #876fa7;
 }
 .card-resource{
     background: linear-gradient(to top right,  #4b1591  40%, #351165 100%);
@@ -255,7 +286,11 @@ li a{
     padding: 20px;
     grid-column: span 1;
     grid-row: span 1;
-    
+    transition: width 5s ease-in-out;
+}
+.card-resource:hover{
+    width: 200px;
+    background: #876fa7;
 }
 
 
