@@ -30,7 +30,7 @@ ul li{
     justify-content: space-between;
     display: inline-flex;
     text-align: center;
-    margin-right: 35px;
+    margin-right: 140px;
 }
 li a{
     text-decoration: none;
@@ -540,6 +540,7 @@ li a{
     justify-content: center;
     gap: 8px;
 }
+
 /* about sec */
 #about-sec{
     background-color: #1A0B2E;
@@ -552,6 +553,7 @@ li a{
     padding: 40px 0px;
     gap: 25px;
 }
+
 /* card-sec */
 .card-container{
     display: grid;
@@ -669,5 +671,308 @@ iframe{
     margin:-50px 20px 0px 178px;
     font-size: 0.65rem;
 }
+
 }
+
+
+
+
+   /* TABLET DEVICE  */
+
+@media screen and (min-width:577px) and (max-width:992px){
+
+/* Navbar */
+.nav-container{
+    padding: 0 30px;
+    justify-content: space-between;
+}
+
+ul li{
+    margin-right: 30px;
+}
+
+/* Hero Section */
+.hero-container{
+    height: 420px;
+}
+
+.banner-circle{
+    width: 200px;
+    height: 200px;
+    margin-left: 285px;
+    margin-top: -370px;
+}
+
+.banner-mic{
+    width: 80px;
+    height: 90px;
+    margin-left: 345px;
+    margin-top: -315px;
+}
+
+.sec-img button{
+    margin-top: -375px;
+    margin-left: 420px;
+}
+
+.hero-info{
+    margin-top: -120px;
+}
+
+.hero-btn{
+    width: 100%;
+}
+
+/* About Section */
+.about-num{
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    padding: 50px;
+}
+
+/* Why Choose Section */
+#card{
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.card-container{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    margin: 50px;
+}
+
+.card-headphone,
+.card-device,
+.card-location,
+.card-Exclusive,
+.card-resource{
+    width: auto;
+    grid-column: span 1;
+    grid-row: span 1;
+    padding: 30px 20px;
+}
+
+/* Featured Section */
+
+#Featured-card{
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.featured-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin: 40px 50px;
+}
+
+.card-info{
+    width: 100%;
+    height: auto;
+}
+
+iframe{
+    width: 100%;
+    height: 180px;
+}
+
+/* Last card full width */
+.featured-card .card-info:last-child{
+    grid-column: span 2;
+    width: 60%;
+    justify-self: center;
+}
+
+/* Host Section */
+
+.host-info{
+    margin: 40px 50px;
+}
+
+.host-details{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.host-details img{
+    padding: 0;
+}
+
+.card-details-info{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.host-icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Footer */
+
+.footer-container{
+    position: relative;
+}
+
+.footer-container h1{
+    margin: -170px 0 0 270px;
+    font-size: 3rem;
+}
+
+.footer-wave{
+    font-size: 3rem;
+}
+
+#footer .footer-icons{
+    margin-left: 180px;
+}
+
+.icon-info{
+    margin: -150px 15px 0 15px;
+    font-size: 0.7rem;
+}
+
+.copy{
+    margin: -70px 0 0 300px;
+    font-size: 0.7rem;
+}
+
+}
+
+    /* hero-sec 
+.hero-container{
+    width: 100%;
+    height: 272px;
+}
+.sec-img button{
+    margin-top: -264px;
+    margin-left: 343px;   
+}
+.banner-circle{
+    position: absolute;
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    margin-left: 231px;
+    margin-top: -260px;
+}
+.banner-mic{
+    position: absolute;
+    height: 90px;
+    width: 76px;
+    margin-left: 270px;
+    margin-top: -234px;
+}
+.hero-info{
+   margin-top: -100px;
+    margin-left: 136px;
+}
+.hero-details{
+    align-items: center;
+}
+.hero-details h1{
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.hero-details p{
+    font-size: 0.65rem;
+    color: white;
+    margin-bottom: 5px;
+}
+.hero-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+*/
+    /* card-sec 
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 150px);
+    margin:30px 90px;
+    gap: 20px;
+    margin-bottom: 0px;
+}
+.card-headphone{
+    padding: 18px 20px;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.card-device, .card-location{
+    padding: 20px;
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 350px;
+}
+.card-Exclusive{
+    background: linear-gradient(to top right,  #4b1591   40%, #351165 100%);
+    border-radius: 8px;
+    padding: 20px;
+    grid-column: span 1;
+    grid-row: span 1;
+    transition: width 5s ease-in-out;
+}
+
+.card-resource{
+    background: linear-gradient(to top right,  #4b1591  40%, #351165 100%);
+    border-radius: 8px;
+    padding: 20px;
+    grid-column: span 1;
+    grid-row: span 1;
+    transition: width 5s ease-in-out;
+}
+#card{
+    height: 650px;
+}
+*/
+  /* feature-card 
+.featured-card{
+    gap: 20px;
+    margin: 25px 117px;
+}
+*/
+
+    /* footer 
+
+
+.footer-container h1{
+    position: absolute;
+    font-size: 4rem;
+    margin:-236px 0px 0px 340px;
+}
+.icon-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 0.75rem;
+    margin:-220px 20px 0px 58px;
+}
+.icon-info {
+    width: 20px;
+    height: 194px;
+}
+#footer .footer-icons{
+    display: flex;
+    margin-left: 256px;
+}
+.copy{
+    color: white;
+    position: absolute;
+    font-size: 0.85rem;
+    margin:-96px 20px 0px 352px;
+}
+*/
+
 
